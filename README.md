@@ -8,6 +8,12 @@ Public landing page for the private `ATLAS-7` Alpha repository.
 
 Recent public-facing updates are tracked in [CHANGELOG.md](CHANGELOG.md).
 
+## Public ATLAS Codex Page
+
+Try the live public ATLAS Codex surface here:
+
+- [aitrailblazer.github.io/deltasignal-atlas-codex-plugin](https://aitrailblazer.github.io/deltasignal-atlas-codex-plugin/)
+
 ## Public Tracker Outputs
 
 This public repo also includes the current QA tracker outputs:

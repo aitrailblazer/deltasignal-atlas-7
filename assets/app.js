@@ -552,6 +552,11 @@ o4?.({ LitElement: i4 });
 var changelogEntries = [
   {
     date: "2026-06-22",
+    title: "ATLAS Codex link promoted",
+    body: "Added a stronger direct CTA to the public ATLAS Codex page in both the hero flow and the README so visitors can jump straight into the live public surface."
+  },
+  {
+    date: "2026-06-22",
     title: "Lit bundle shipped for GitHub Pages",
     body: "Replaced the fragile external module import with a bundled local Lit app so the public page renders reliably on GitHub Pages."
   },
@@ -1101,6 +1106,7 @@ var AtlasSevenPublic = class extends i4 {
                 </p>
                 <div class="cta-row">
                   <a class="cta cta-primary" href="https://deltasignal.substack.com" target="_blank" rel="noreferrer">Join DeltaSignal Alpha</a>
+                  <a class="cta cta-secondary" href="https://aitrailblazer.github.io/deltasignal-atlas-codex-plugin/" target="_blank" rel="noreferrer">Try ATLAS Codex Public Page</a>
                   <a class="cta cta-secondary" href="https://github.com/aitrailblazer/ATLAS-7" target="_blank" rel="noreferrer">Private Repo Destination</a>
                 </div>
                 <div class="join-strip">
@@ -1205,6 +1211,10 @@ var AtlasSevenPublic = class extends i4 {
               <p>
                 The path is simple: membership first, GitHub handoff second, invite acceptance third.
                 If you are already an Alpha member, you only need to send your GitHub username or GitHub account email to receive the invite.
+              </p>
+              <p>
+                Want to see the public-facing agent surface first?
+                <a href="https://aitrailblazer.github.io/deltasignal-atlas-codex-plugin/" target="_blank" rel="noreferrer">Open the ATLAS Codex public page</a>.
               </p>
               <ul class="list-tight">
                 <li>Join the DeltaSignal Alpha membership path.</li>

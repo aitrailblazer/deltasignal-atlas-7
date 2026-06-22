@@ -2,6 +2,7 @@
 
 ## 2026-06-22
 
+- Added a stronger direct link to the public ATLAS Codex page in the hero CTA flow and README so visitors can jump straight to the live public surface.
 - Rebuilt the landing page as a bundled local Lit app for GitHub Pages so the public site keeps the Lit surface without depending on a fragile external module import.
 - Made the public join flow more explicit in both the landing page and README, with a direct three-step membership-to-GitHub path and an "already a member" shortcut.
 - Borrowed the ATLAS Codex front-page quick-link strip and contents-panel pattern so visitors can jump to core sections and see the supported agent surfaces more clearly.
