@@ -552,6 +552,11 @@ o4?.({ LitElement: i4 });
 var changelogEntries = [
   {
     date: "2026-06-22",
+    title: "Playbook 001 promoted as flagship invention",
+    body: "Reframed the public page around Playbook 001, the spreadsheet-first tracker, and the Feature QA Loop so visitors immediately see why these are the core operating inventions behind the private repo."
+  },
+  {
+    date: "2026-06-22",
     title: "Alpha CTA retargeted",
     body: "Changed the public repo's main Alpha join path to the dedicated Alpha Circle note so visitors land on the exact how-to-join page instead of the broader Substack home page."
   },
@@ -1234,33 +1239,34 @@ var AtlasSevenPublic = class extends i4 {
 
             <div class="hero-layout">
               <div class="hero-copy">
-                <div class="eyebrow">Private repo. Public front door.</div>
-                <h1>ATLAS-7 is the private intelligence layer behind DeltaSignal.</h1>
-                <p class="tagline">Exclusive access for serious investors, founders, analysts, and builders.</p>
+                <div class="eyebrow">Flagship playbook: Agent Ops 001</div>
+                <h1>The spreadsheet-first tracker and the QA loop are the core inventions behind ATLAS-7.</h1>
+                <p class="tagline">Playbook 001 matters because it forces coding agents into evidence discipline before they touch your product.</p>
                 <p>
-                  ATLAS-7 combines curated knowledge, high-signal prompting systems, reusable playbooks,
-                  and the deeper MCP operating layer behind the public ATLAS Codex surface.
+                  The breakthrough is simple and strict: one canonical spreadsheet, one row per feature, one test plan,
+                  one fix, one retest, and one provenance trail for every change an agent makes.
                 </p>
                 <p>
-                  It was built for people who go deep. This public page shows the outline. The private repo holds the actual operating material.
+                  That matters because AI coding agents move faster than product memory. Without the loop, they fix locally,
+                  invent intent, and leave behind code no one can actually verify. Playbook 001 is the operating system that stops that.
                 </p>
                 <div class="cta-row">
-                  <a class="cta cta-primary" href="https://substack.com/@deltasignalai/p-179433731" target="_blank" rel="noreferrer">Secure Your Alpha Circle Membership</a>
+                  <a class="cta cta-primary" href="#playbook-001" @click=${this.handleTocClick}>Why Playbook 001 Matters</a>
+                  <a class="cta cta-secondary" href="https://substack.com/@deltasignalai/p-179433731" target="_blank" rel="noreferrer">Join Alpha Circle</a>
                   <a class="cta cta-secondary" href="https://aitrailblazer.github.io/deltasignal-atlas-codex-plugin/" target="_blank" rel="noreferrer">Try ATLAS Codex Public Page</a>
-                  <a class="cta cta-secondary" href="https://github.com/aitrailblazer/ATLAS-7" target="_blank" rel="noreferrer">Private Repo Destination</a>
                 </div>
                 <p>
-                  <strong>Limited access:</strong> Alpha Circle membership is intentionally kept small for early supporters and serious practitioners.
+                  <strong>Why this is important:</strong> the spreadsheet gives you one durable memory surface, and the loop gives you one durable decision sequence.
                 </p>
                 <p>
-                  Access is granted selectively. If you want in, use the Alpha Circle join page and complete the GitHub handoff through Substack Chat.
+                  Together they convert agent speed into something founders and operators can still trust.
                 </p>
                 <div class="join-strip">
-                  <strong>How to join</strong>
+                  <strong>What Playbook 001 introduces</strong>
                   <ul>
-                    <li>Join Alpha: <a href="https://substack.com/@deltasignalai/p-179433731" target="_blank" rel="noreferrer">How to join Alpha Circle</a></li>
-                    <li>Send a DM on <a href="https://substack.com/chat" target="_blank" rel="noreferrer">Substack Chat</a> with your GitHub username or the email attached to your GitHub account.</li>
-                    <li>Accept the invitation to the private ATLAS-7 repo when it arrives.</li>
+                    <li>A spreadsheet-first tracker with one canonical row per feature.</li>
+                    <li>A no-fix-first QA loop: discovery, user story, test plan, evidence, fix, retest.</li>
+                    <li>A provenance rule that ties every change back to behavior, files, commits, and retest proof.</li>
                   </ul>
                 </div>
                 <div class="agent-links">
@@ -1272,37 +1278,38 @@ var AtlasSevenPublic = class extends i4 {
               </div>
 
               <aside class="hero-panel">
-                <div class="panel-label">How To Get Access</div>
+                <div class="panel-label">Why 001 Is The Flagship</div>
                 <div class="join-steps">
                   <div class="join-step">
                     <div class="join-step-number">1</div>
                     <div>
-                      <strong>Open the Alpha Circle join guide</strong>
-                      <span>Start with the exact Alpha Circle note URL for the join instructions, then use Substack Chat to send the GitHub details for your invite.</span>
+                      <strong>The spreadsheet solves agent memory drift</strong>
+                      <span>One canonical sheet keeps the product map, expected behavior, actual behavior, failures, fixes, and retests in one place instead of scattered across chat history.</span>
                     </div>
                   </div>
                   <div class="join-step">
                     <div class="join-step-number">2</div>
                     <div>
-                      <strong>Send a DM with your GitHub details</strong>
-                      <span>Send a DM on Substack Chat with your GitHub username or the email tied to your GitHub account so the invite lands in the right place.</span>
+                      <strong>The loop prevents fake progress</strong>
+                      <span>Discovery has to happen before fixes, so the agent cannot patch blindly, claim success, and leave hidden regressions behind.</span>
                     </div>
                   </div>
                   <div class="join-step">
                     <div class="join-step-number">3</div>
                     <div>
-                      <strong>Accept the invite</strong>
-                      <span>Once the invitation arrives, accept it and the private ATLAS-7 repo unlocks on GitHub.</span>
+                      <strong>The provenance trail makes trust possible</strong>
+                      <span>Every fix maps back to a feature row, severity, file set, commit hash, and retest result. That is what turns agent output into auditable operator work.</span>
                     </div>
                   </div>
                 </div>
-                <div class="member-note">Already an Alpha member? Skip straight to step 2 and send your GitHub username in a Substack Chat DM.</div>
+                <div class="member-note">That is why Playbook 001 sits at the front of the private repo: it is the control layer for everything that comes after it.</div>
               </aside>
             </div>
 
             <div class="toc-panel">
               <div class="toc-title">Contents</div>
               <div class="toc-links">
+                <a href="#playbook-001" @click=${this.handleTocClick}>Why Playbook 001 Matters</a>
                 <a href="#what-you-get" @click=${this.handleTocClick}>What You Get</a>
                 <a href="#alpha-circle" @click=${this.handleTocClick}>Alpha Circle</a>
                 <a href="#referrals" @click=${this.handleTocClick}>Referral System</a>
@@ -1315,17 +1322,57 @@ var AtlasSevenPublic = class extends i4 {
           </div>
         </section>
 
+        <section id="playbook-001" class="section-grid">
+          <section class="panel">
+            <div class="label">Playbook 001</div>
+            <h2>The most important recent operator invention in the repo</h2>
+            <p>
+              Playbook 001 exists because agent QA breaks down when the agent is allowed to "fix" before it has mapped the product.
+              The public site should make that explicit: the spreadsheet-first tracker and the QA loop are not side details. They are the control system.
+            </p>
+            <div class="offer-grid">
+              <div class="offer-card">
+                <strong>Spreadsheet-first tracker</strong>
+                <span>One canonical sheet keeps one row per feature, expected behavior, actual behavior, severity, files changed, commits, and retest proof.</span>
+              </div>
+              <div class="offer-card">
+                <strong>Feature QA loop</strong>
+                <span>Discovery, user story, test plan, evidence, fix, retest. The sequence is the product, because the sequence is what prevents regressions from hiding.</span>
+              </div>
+              <div class="offer-card">
+                <strong>Founder-grade provenance</strong>
+                <span>You can see what was tested, what failed, what changed, what passed, and what still needs a product decision before trust is granted.</span>
+              </div>
+            </div>
+          </section>
+
+          <section class="panel">
+            <div class="label">Why It Matters</div>
+            <h2>Agent speed without a loop becomes unverifiable software</h2>
+            <ul class="list-tight">
+              <li>Agents move faster than product memory, so they need an external memory surface that survives the session.</li>
+              <li>Without a mandatory loop, agents optimize locally, invent intent, and create regressions that sound plausible in chat but fail in the product.</li>
+              <li>The spreadsheet makes every feature explicit. The loop makes every change earn trust through evidence instead of confidence.</li>
+              <li>This is why 001 sits at the front: it governs how every serious repo audit and fix pass should run.</li>
+            </ul>
+            <div class="callout">
+              <strong>Public thesis, private implementation</strong>
+              <span>The public page explains why the tracker and the loop matter. The private repo holds the actual prompt packages, playbooks, and reusable operating assets.</span>
+            </div>
+          </section>
+        </section>
+
         <section id="what-you-get" class="card-grid">
           <article class="card">
             <div class="label">What Is ATLAS-7</div>
-            <h3>Private research engine</h3>
+            <h3>Private operating layer</h3>
             <p>
-              ATLAS-7 is DeltaSignal's advanced research engine: private prompting systems, curated workflows,
-              operator playbooks, and MCP-specific guidance designed for repeatable serious work.
+              ATLAS-7 is where the public thesis becomes private operating material: prompts, playbooks, workflows,
+              MCP guidance, and the control systems that make agent work repeatable.
             </p>
             <ul class="list-tight">
-              <li>Curated knowledge and structured frameworks</li>
-              <li>Playbooks with copy-ready prompts and diagrams</li>
+              <li>Copy-ready prompt packages and structured frameworks</li>
+              <li>Playbooks that explain the method and the execution sequence</li>
               <li>MCP workflows, patterns, and operator examples</li>
             </ul>
           </article>
@@ -1347,11 +1394,11 @@ var AtlasSevenPublic = class extends i4 {
             <div class="label">Alpha Member Access</div>
             <h3>What membership unlocks</h3>
             <p>
-              Alpha membership turns the public teaser surface into private GitHub access and the deeper operating layer behind it.
+              Alpha membership turns the public thesis into private GitHub access and the deeper operating layer behind it.
             </p>
             <ul class="list-tight">
               <li>Private ATLAS-7 GitHub repository access</li>
-              <li>Advanced prompting frameworks and playbooks</li>
+              <li>Advanced prompting frameworks and flagship playbooks like 001</li>
               <li>MCP-specific workflows and reusable deep-dive templates</li>
             </ul>
           </article>
@@ -1363,7 +1410,7 @@ var AtlasSevenPublic = class extends i4 {
             <h2>What Alpha membership actually unlocks</h2>
             <p>
               The public page is the front door. Alpha Circle is the private layer behind it:
-              the repo, the prompting systems, the reusable research workflows, and the member-only playbooks.
+              the repo, the prompting systems, the reusable research workflows, and the member-only playbooks that package the spreadsheet-first method and the loop.
             </p>
             <div class="offer-grid">
               <div class="offer-card">
@@ -1390,7 +1437,7 @@ var AtlasSevenPublic = class extends i4 {
             <h2>Public page first, private workflows after</h2>
             <p>
               ATLAS Codex is the public-facing MCP surface. It shows the shape of the system in the open.
-              The private repo is where the deeper operator playbooks, prompting systems, and reusable workflows live.
+              The private repo is where the deeper operator playbooks, prompting systems, reusable workflows, and QA-control methods live.
             </p>
             <ul class="list-tight">
               <li>Start with the public ATLAS Codex page to see the public-facing surface.</li>

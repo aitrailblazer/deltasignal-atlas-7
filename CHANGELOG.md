@@ -2,6 +2,7 @@
 
 ## 2026-06-22
 
+- Reframed the public landing page around Playbook `001`, making the spreadsheet-first tracker and the Feature QA Loop the main message instead of background context, and explained why they matter as the control system for trustworthy agent work
 - Added limited-access scarcity framing, a stronger Alpha CTA, and selective-membership copy to the public landing page.
 - Strengthened the public landing-page positioning with a clearer headline, tighter value proposition, stronger who-it's-for framing, and more specific Alpha-member benefits.
 - Wired the Contents links to explicit in-component scrolling so they land on the intended section headings inside the Lit page.

@@ -1,8 +1,25 @@
 # ATLAS-7
 
-**The private research and intelligence system behind DeltaSignal.**
+**The private operating and intelligence system behind DeltaSignal.**
 
-Public landing page for the private `ATLAS-7` Alpha repository. This repo explains what ATLAS-7 is, who it is for, and how new members get access to the private GitHub repository.
+Public landing page for the private `ATLAS-7` Alpha repository. This repo explains what ATLAS-7 is, why Playbook `001` matters, and how new members get access to the private GitHub repository.
+
+## Why Playbook 001 Matters
+
+The most important recent operating invention inside ATLAS-7 is the combination of:
+
+- the spreadsheet-first tracker
+- the Feature QA Loop
+
+Playbook `001` is about that method because it solves the core AI-agent problem:
+
+- agents move faster than product memory
+- agents will "fix" locally before they understand the product globally
+- chat history is not a durable QA system
+
+The spreadsheet-first tracker gives one canonical memory surface with one row per feature. The loop forces discovery, user story definition, test planning, evidence capture, targeted fixes, and retests before anything earns trust.
+
+That is why `001` sits at the front of the private repo. It is the control layer for turning agent speed into auditable work.
 
 ## Public Changelog
 
@@ -24,7 +41,7 @@ This public repo also includes the current QA tracker outputs:
 
 ## What Is ATLAS-7
 
-ATLAS-7 is DeltaSignal's advanced research engine: curated knowledge, high-signal prompting systems, structured playbooks, and the deeper MCP operating layer behind the public ATLAS Codex surface.
+ATLAS-7 is DeltaSignal's advanced research engine and operating layer: curated knowledge, high-signal prompting systems, structured playbooks, spreadsheet-backed QA control methods, and the deeper MCP operating layer behind the public ATLAS Codex surface.
 
 ## What ATLAS-7 Includes
 
@@ -33,6 +50,7 @@ ATLAS-7 is DeltaSignal's advanced research engine: curated knowledge, high-signa
 - MCP-oriented operating guides
 - reusable templates for recurring analysis
 - member-only playbooks and diagrams
+- flagship control-system playbooks such as `001`
 
 ## Alpha Circle
 
@@ -44,6 +62,7 @@ What it unlocks:
 - member-only playbooks, prompting systems, and MCP workflows
 - the deeper operating layer behind the public ATLAS Codex surface
 - advanced deep-dive templates and repeatable research frameworks
+- the spreadsheet-first tracker and Feature QA Loop implementation assets behind Playbook `001`
 
 ## Limited Access
 
