@@ -2,6 +2,7 @@
 
 ## 2026-06-22
 
+- Added [X @AITrailblazerQ](https://x.com/AITrailblazerQ) as an additional DM path for sending GitHub details when requesting private ATLAS-7 access.
 - Replaced the vague "reply to DeltaSignal" language with a concrete handoff path: send the GitHub details through Substack Chat after joining.
 - Rewrote the join instructions into bullet-based steps, added the direct Alpha link, and made the GitHub handoff explicit as a reply to DeltaSignal after joining.
 - Expanded the public repo's Alpha Circle surface with clearer explanation of what membership unlocks, how the public MCP page relates to the private repo, the referral loop, and the exact Substack links to use when joining.
