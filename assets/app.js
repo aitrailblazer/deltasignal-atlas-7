@@ -1200,7 +1200,7 @@ var AtlasSevenPublic = class extends i4 {
                   <strong>How to join</strong>
                   <ul>
                     <li>Join Alpha: <a href="https://deltasignal.substack.com/" target="_blank" rel="noreferrer">deltasignal.substack.com</a></li>
-                    <li>Reply to DeltaSignal after joining with your GitHub username or the email attached to your GitHub account.</li>
+                    <li>Send a DM on <a href="https://substack.com/chat" target="_blank" rel="noreferrer">Substack Chat</a> with your GitHub username or the email attached to your GitHub account.</li>
                     <li>Accept the invitation to the private ATLAS-7 repo when it arrives.</li>
                   </ul>
                 </div>
@@ -1225,8 +1225,8 @@ var AtlasSevenPublic = class extends i4 {
                   <div class="join-step">
                     <div class="join-step-number">2</div>
                     <div>
-                      <strong>Reply with your GitHub details</strong>
-                      <span>Reply to DeltaSignal with your GitHub username or the email tied to your GitHub account so the invite lands in the right place.</span>
+                      <strong>Send a DM with your GitHub details</strong>
+                      <span>Send a DM on Substack Chat with your GitHub username or the email tied to your GitHub account so the invite lands in the right place.</span>
                     </div>
                   </div>
                   <div class="join-step">
@@ -1237,7 +1237,7 @@ var AtlasSevenPublic = class extends i4 {
                     </div>
                   </div>
                 </div>
-                <div class="member-note">Already an Alpha member? Skip straight to step 2 and send your GitHub username.</div>
+                <div class="member-note">Already an Alpha member? Skip straight to step 2 and send your GitHub username in a Substack Chat DM.</div>
               </aside>
             </div>
 
@@ -1375,7 +1375,7 @@ var AtlasSevenPublic = class extends i4 {
             </div>
             <ul class="list-tight">
               <li>Step 1: subscribe through DeltaSignal.</li>
-              <li>Step 2: send the GitHub username or email that should receive the private invite.</li>
+              <li>Step 2: send a Substack Chat DM with the GitHub username or email that should receive the private invite.</li>
               <li>Step 3: accept the invitation and enter the private ATLAS-7 repo.</li>
             </ul>
           </section>
@@ -1388,7 +1388,7 @@ var AtlasSevenPublic = class extends i4 {
               <h2>How the repo unlock works</h2>
               <p>
                 The path is simple: membership first, GitHub handoff second, invite acceptance third.
-                If you are already an Alpha member, you only need to send your GitHub username or GitHub account email to receive the invite.
+                If you are already an Alpha member, you only need to send your GitHub username or GitHub account email through Substack Chat to receive the invite.
               </p>
               <p>
                 Want to see the public-facing agent surface first?
@@ -1402,7 +1402,7 @@ var AtlasSevenPublic = class extends i4 {
               </p>
               <ul class="list-tight">
                 <li>Join Alpha here: <a href="https://deltasignal.substack.com/" target="_blank" rel="noreferrer">deltasignal.substack.com</a>.</li>
-                <li>Reply to DeltaSignal with the GitHub username or email attached to the account that should receive access.</li>
+                <li>Send a Substack Chat DM with the GitHub username or email attached to the account that should receive access.</li>
                 <li>Receive the GitHub invitation for the private repo.</li>
                 <li>Accept the invitation and open ATLAS-7.</li>
               </ul>
