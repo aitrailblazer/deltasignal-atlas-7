@@ -252,6 +252,20 @@ class AtlasSevenPublic extends LitElement {
       font-size: 14px;
     }
 
+    .join-strip ul {
+      margin: 0;
+      padding-left: 18px;
+    }
+
+    .join-strip li {
+      color: #d7c7bc;
+      font-size: 14px;
+    }
+
+    .join-strip li + li {
+      margin-top: 8px;
+    }
+
     .agent-links {
       display: flex;
       flex-wrap: wrap;
@@ -638,7 +652,11 @@ class AtlasSevenPublic extends LitElement {
                 </div>
                 <div class="join-strip">
                   <strong>How to join</strong>
-                  <span>1. Join DeltaSignal Alpha. 2. Reply with your GitHub username or GitHub account email. 3. Accept the invite to the private ATLAS-7 repo.</span>
+                  <ul>
+                    <li>Join Alpha: <a href="https://deltasignal.substack.com/" target="_blank" rel="noreferrer">deltasignal.substack.com</a></li>
+                    <li>Reply to DeltaSignal after joining with your GitHub username or the email attached to your GitHub account.</li>
+                    <li>Accept the invitation to the private ATLAS-7 repo when it arrives.</li>
+                  </ul>
                 </div>
                 <div class="agent-links">
                   <a href="https://aitrailblazer.github.io/deltasignal-atlas-codex-plugin/" target="_blank" rel="noreferrer">Claude Code</a>
@@ -661,8 +679,8 @@ class AtlasSevenPublic extends LitElement {
                   <div class="join-step">
                     <div class="join-step-number">2</div>
                     <div>
-                      <strong>Send your GitHub details</strong>
-                      <span>Reply with your GitHub username or the email tied to your GitHub account so the invite lands in the right place.</span>
+                      <strong>Reply with your GitHub details</strong>
+                      <span>Reply to DeltaSignal with your GitHub username or the email tied to your GitHub account so the invite lands in the right place.</span>
                     </div>
                   </div>
                   <div class="join-step">
@@ -837,10 +855,10 @@ class AtlasSevenPublic extends LitElement {
                 if you want the public explanation first.
               </p>
               <ul class="list-tight">
-                <li>Join the DeltaSignal Alpha membership path.</li>
-                <li>Send the GitHub username or email attached to the account that should receive access.</li>
-                <li>Receive the GitHub invite for the private repo.</li>
-                <li>Accept the invite and open ATLAS-7.</li>
+                <li>Join Alpha here: <a href="https://deltasignal.substack.com/" target="_blank" rel="noreferrer">deltasignal.substack.com</a>.</li>
+                <li>Reply to DeltaSignal with the GitHub username or email attached to the account that should receive access.</li>
+                <li>Receive the GitHub invitation for the private repo.</li>
+                <li>Accept the invitation and open ATLAS-7.</li>
               </ul>
             </section>
 
