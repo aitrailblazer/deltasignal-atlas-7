@@ -66,7 +66,7 @@ ATLAS-7 is private. The public repo is the front door, not the member materials.
 How to join:
 
 - Join Alpha: [deltasignal.substack.com](https://deltasignal.substack.com/)
-- Reply to DeltaSignal after joining with your GitHub username or the email attached to your GitHub account
+- Send a DM on [Substack Chat](https://substack.com/chat) with your GitHub username or the email attached to your GitHub account
 - Accept the GitHub invitation when it arrives
 - Open the private `ATLAS-7` repository on GitHub
 
@@ -92,7 +92,7 @@ Private GitHub access is granted after membership confirmation.
 Recommended flow:
 
 1. Join Alpha via [deltasignal.substack.com](https://deltasignal.substack.com/)
-2. Reply to DeltaSignal with your GitHub username or GitHub account email
+2. Send a Substack Chat DM with your GitHub username or GitHub account email
 3. Receive a private repository or organization invitation
 4. Accept the invitation
 5. Open the private `ATLAS-7` repository
