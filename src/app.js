@@ -23,6 +23,11 @@ const changelogEntries = [
   },
   {
     date: "2026-06-22",
+    title: "Access step wording corrected",
+    body: "Reworded the first hero access step so the Alpha Circle note is described as the join guide, not as the membership gateway itself.",
+  },
+  {
+    date: "2026-06-22",
     title: "Alpha Circle surface expanded",
     body: "Added clearer Alpha membership, MCP, referral, and Substack join guidance so the public page explains the whole access path instead of only the repo unlock step.",
   },
@@ -692,8 +697,8 @@ class AtlasSevenPublic extends LitElement {
                   <div class="join-step">
                     <div class="join-step-number">1</div>
                     <div>
-                      <strong>Open the Alpha Circle join page</strong>
-                      <span>Start with the exact Alpha Circle note URL. That is the primary entry point for the membership flow on this public page.</span>
+                      <strong>Open the Alpha Circle join guide</strong>
+                      <span>Start with the exact Alpha Circle note URL for the join instructions, then use Substack Chat to send the GitHub details for your invite.</span>
                     </div>
                   </div>
                   <div class="join-step">

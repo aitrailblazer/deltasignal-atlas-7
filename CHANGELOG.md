@@ -2,6 +2,7 @@
 
 ## 2026-06-22
 
+- Corrected the hero access-step wording so the Alpha Circle note is described as the join guide rather than the membership gateway itself.
 - Removed the X DM option from the public access handoff and left Substack Chat as the only GitHub-details path.
 - Switched the public repo's main Alpha path back to the exact Alpha Circle note URL provided by the operator.
 - Restored the main Alpha join path to the real DeltaSignal subscribe page and kept the Alpha Circle note as a secondary explainer link.
